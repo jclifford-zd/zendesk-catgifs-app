@@ -1,0 +1,5 @@
+<p><a class='get_gifs'>New one please!</a></p>
+<ul>
+    <li>Title: {{title}}</li>
+</ul>
+<img src="{{link}}">
