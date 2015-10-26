@@ -31,7 +31,7 @@
         // random from 0-59: 60 images returned by imgur api:
         var random = Math.floor(Math.random() * 60);
         console.log('request succeeded');
-        showThisOne = data.data[random];
+        var showThisOne = data.data[random];
         console.log('Size of ', random, ': ', showThisOne['size']);
         if (showThisOne['size'] === 0) {
             // Gif's gone from imgur, go around again:
