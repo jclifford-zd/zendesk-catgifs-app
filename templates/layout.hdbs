@@ -4,7 +4,7 @@
 </header>
 <section data-main></section>
 <footer>
-  <a href="mailto:{{author.email}}">
+  By <a href="mailto:{{author.email}}">
     {{author.name}}
   </a>
 </footer>
