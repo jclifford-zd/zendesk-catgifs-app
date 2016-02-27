@@ -33,6 +33,7 @@
         console.log('request succeeded');
         var showThisOne = data.data[random];
         console.log('Size of ', random, ': ', showThisOne['size']);
+        console.log('Link for ', random, ': ', showThisOne['link']);
         if (showThisOne['size'] === 0) {
             // Gif's gone from imgur, go around again:
             console.log('size 0 image encountered, go again');
